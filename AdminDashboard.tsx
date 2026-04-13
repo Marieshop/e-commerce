@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { Product, Order, StockMovement, Analytics, Expense, Income, LedgerSummary } from '../types';
-import { api } from '../lib/api';
-import { Button } from '../components/ui/Button';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '../components/ui/Card';
-import { Input } from '../components/ui/Input';
-import { Badge } from '../components/ui/Badge';
-import { formatPrice, cn } from '../lib/utils';
+import { api } from '../api';
+import { Button } from '../Button';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '../Card';
+import { Input } from '../Input';
+import { Badge } from '../Badge';
+import { formatPrice, cn } from '../utils';
 import { 
   LayoutDashboard, 
   Package, 
