@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Product, Order, StockMovement, Analytics, Expense, Income, LedgerSummary } from '../types';
+import { Product, Order, StockMovement, Analytics, Expense, Income, LedgerSummary } from './types';
 import { api } from './api';
 import { Button } from './Button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from './Card';
