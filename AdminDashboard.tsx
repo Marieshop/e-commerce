@@ -3,7 +3,7 @@ import { Product, Order, StockMovement, Analytics, Expense, Income, LedgerSummar
 import { api } from '../api';
 import { Button } from '../Button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '../Card';
-import { Input } from '../Input';
+import { Input } from './Input';
 import { Badge } from '../Badge';
 import { formatPrice, cn } from '../utils';
 import { 
