@@ -1,9 +1,9 @@
 import React from 'react';
 import { Product } from '../types';
-import { Card, CardContent, CardFooter } from './ui/Card';
-import { Button } from './ui/Button';
-import { Badge } from './ui/Badge';
-import { formatPrice } from '../lib/utils';
+import { Card, CardContent, CardFooter } from './Card';
+import { Button } from './Button';
+import { Badge } from './Badge';
+import { formatPrice } from '../utils';
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { ShoppingCart, ArrowRight } from 'lucide-react';
