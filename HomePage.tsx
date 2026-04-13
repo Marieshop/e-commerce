@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import { Product } from '../types';
-import { api } from '../lib/api';
-import { ProductCard } from '../components/ProductCard';
-import { CategoryFilter } from '../components/CategoryFilter';
-import { Input } from '../components/ui/Input';
-import { Button } from '../components/ui/Button';
+import { api } from '..api';
+import { ProductCard } from '..ProductCard';
+import { CategoryFilter } from '..CategoryFilter';
+import { Input } from '..Input';
+import { Button } from '../Button';
 import { Search, ShoppingBag } from 'lucide-react';
 
 export function HomePage() {
