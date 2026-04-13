@@ -1,6 +1,6 @@
 import { Product, Order, StockMovement, Analytics, Expense, Income, LedgerSummary } from '../types';
 
-const API_BASE = '../api';
+const API_BASE = './api';
 
 async function handleResponse(res: Response) {
   if (!res.ok) {
