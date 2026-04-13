@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { ShoppingBag, Menu, X, User } from 'lucide-react';
 import { useState } from 'react';
-import { Button } from './ui/Button';
+import { Button } from './Button';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
