@@ -4,7 +4,7 @@
  */
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import  {Navbar} from "Navbar";
+import  Navbar from "./Navbar";
 import  {WhatsAppButton}  from 'WhatsAppButton';
 import  {HomePage}  from 'HomePage';
 import {ProductPage}  from 'ProductPage';
