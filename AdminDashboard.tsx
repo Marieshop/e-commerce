@@ -136,7 +136,7 @@ export function AdminDashboard() {
               </Button>
             </form>
             <div className="bg-secondary/50 p-4 rounded-2xl text-[10px] text-center text-muted-foreground uppercase tracking-widest border border-primary/5">
-              Default Access: <span className="text-primary font-bold">admin123</span>
+              Default Access: <span className="text-primary font-bold"></span>
             </div>
           </CardContent>
         </Card>
