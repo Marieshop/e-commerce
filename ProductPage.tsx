@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Product } from '../types';
-import { api } from '../api';
+import { api } from './api';
 import { Button } from '../Button';
 import { Badge } from '../Badge';
 import { Input } from '../Input';
