@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Product } from '../types';
-import { api } from '../lib/api';
-import { Button } from '../components/ui/Button';
-import { Badge } from '../components/ui/Badge';
-import { Input } from '../components/ui/Input';
-import { formatPrice, cn } from '../lib/utils';
+import { api } from '../api';
+import { Button } from '../Button';
+import { Badge } from '../Badge';
+import { Input } from '../Input';
+import { formatPrice, cn } from '../utils';
 import { ChevronLeft, ShoppingCart, Truck, ShieldCheck, ArrowRight, Copy, Check } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { toast } from 'sonner';
