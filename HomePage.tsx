@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Product } from '../types';
 import { api } from "./api";
-import { ProductCard } from '../ProductCard';
+import  ProductCard  from './ProductCard';
 import { CategoryFilter } from '../CategoryFilter';
 import { Input } from '../Input';
 import { Button } from '../Button';
