@@ -1,7 +1,7 @@
 import {StrictMode} from 'react';
 import {createRoot} from 'react-dom/client';
 import App from './App';
-import index from './index';
+import {index} from './index';
 
 // Suppress Vite WebSocket connection errors which are expected in this environment
 if (typeof window !== 'undefined') {
