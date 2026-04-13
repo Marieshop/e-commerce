@@ -1,4 +1,4 @@
-import { Product, Order, StockMovement, Analytics, Expense, Income, LedgerSummary } from '../types';
+import { Product, Order, StockMovement, Analytics, Expense, Income, LedgerSummary } from './types';
 
 const API_BASE = './api';
 
