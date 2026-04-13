@@ -4,11 +4,11 @@
  */
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Navbar } from './components/Navbar';
-import { WhatsAppButton } from './components/WhatsAppButton';
-import { HomePage } from './pages/HomePage';
-import { ProductPage } from './pages/ProductPage';
-import { AdminDashboard } from './pages/AdminDashboard';
+import  {Navbar} from 'Navbar';
+import  {WhatsAppButton}  from 'WhatsAppButton';
+import  {HomePage}  from 'HomePage';
+import {ProductPage}  from 'ProductPage';
+import {AdminDashboard}  from 'AdminDashboard';
 import { Toaster } from 'sonner';
 
 export default function App() {
