@@ -1,5 +1,5 @@
-import { cn } from '@/src/lib/utils';
-import { Button } from './ui/Button';
+import { cn } from './utils';
+import { Button } from './Button';
 
 const categories = [
   'All',
